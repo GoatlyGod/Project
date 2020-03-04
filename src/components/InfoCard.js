@@ -5,28 +5,13 @@ import heartOutline from "../assets/heart-outline.svg";
 
 const InfoCard = () => {
     return (
-        <div className="container mt-3">
-            <div className="row">
-            <div className="col">
-                <div className="card" style={{ width: "18rem" }}>
-                <img className="card-img-top" src="" alt="..."/>
-                <div className="card-body">
-                    <h5 className="card-title">Dish Name</h5>
-                    <div className="card-text">
-                    <p></p>
-                    <p></p> 
-                    </div>
-                    <a href="#" className="btn btn-primary">
-                    Learn More
-                    </a>
-    
-                    <button type="button" class="btn btn-outline-warning">
-                    <img src={heartOutline} alt="favorites"></img>
-                    </button>
-                </div>
-                </div>
-            </div>
-            </div>
+        <div className="card" style={{ width: "18rem" }}>
+        <img src="https://i.ytimg.com/vi/av0PNCWD0EQ/maxresdefault.jpg" class="card-img-top" alt="..."/>
+        <div className="card-body">
+          <h5 className="card-title">Card title</h5>
+          <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
       </div>
     )
 }
