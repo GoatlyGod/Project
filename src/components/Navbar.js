@@ -8,7 +8,7 @@ const Navbar = () => {
       <div>
         <nav className="navbar navbar-light bg-light fixed-top">
           <form className="form-inline">
-            <img className="nav-logo" src={VIFeed} />
+            <img className="nav-logo" src={VIFeed} alt="..."/>
           </form>
 
           <div class="d-flex">

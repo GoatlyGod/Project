@@ -10,9 +10,6 @@ body {
   height: 350px;
   width: 250px;
 }
-.Card {
-  padding: 40px;
-}
 .jumbotron {
   background-image: url(https://img.theculturetrip.com/768x/images/56-259679-cover-5-.jpg);
   background-size: 100% 100%;
@@ -21,4 +18,7 @@ body {
 .nav-logo{
   height: 40px;
   width: 50px;
+}
+.The{
+  margin-top: 25px;
 }
