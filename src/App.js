@@ -1,16 +1,31 @@
 import React from "react";
-import "../src/App.css";
-import InfoCard from "./components/InfoCard";
-import Navbar from "./components/Navbar";
-import Home from "../src/views/home";
-import Login from "../src/views/Login"
+import { BrowserRouter, Switch, Route, Redirect } from "react-router-dom";
+
+import "./App.css";
+
+import Order from "./views/Order";
+import Home from "./views/Home";
+import Login from "./views/Login";
 
 const App = () => {
   return (
     <React.Fragment>
-      <Navbar />
-      <Home />
-      <Login/>
+      <BrowserRouter>
+        <Switch>
+          <Route path="/login">
+            <Login />
+          </Route>
+          <Route path="/home">
+            <Home />
+          </Route>
+          <Route path="/order">
+            <Order />
+          </Route>
+          <Route path="/" exact={true}>
+            <Redirect to="/login" />
+          </Route>
+        </Switch>
+      </BrowserRouter>
     </React.Fragment>
   );
 };

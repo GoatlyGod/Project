@@ -1,18 +1,15 @@
-import React from 'react'
-import VIFeed from "../assets/VIFeed.png"
-
+import React from "react";
+import VIFeed from "../assets/VIFeed.png";
 
 
 const Navbar = () => {
-    return (
-        <React.Fragment>
-        <div>
+  return (
+    <React.Fragment>
+      <div>
         <nav className="navbar navbar-light bg-light fixed-top">
           <form className="form-inline">
-            <img className= "nav-logo" src={VIFeed}/>
+            <img className="nav-logo" src={VIFeed} />
           </form>
-
-          
 
           <div class="d-flex">
             <div class="dropdown mr-1">
@@ -50,7 +47,7 @@ const Navbar = () => {
           </button>
         </div>
       </div>
-      </React.Fragment>
-    )
-}
+    </React.Fragment>
+  );
+};
 export default Navbar;
