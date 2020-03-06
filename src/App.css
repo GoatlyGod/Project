@@ -19,10 +19,13 @@ body {
   height: 800px;
 }
 .nav-logo{
-  height: 40px;
-  width: 50px;
+  height: 80px;
+  width: 100px;
 }
 
-.navbar{
-  padding-bottom: 3em;
+.d-flex{
+  margin-right: 3em;
 }
+ .meform{
+  margin-left: 25em;
+ }

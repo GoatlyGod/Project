@@ -11,9 +11,8 @@ body{
     margin: 15em 20em 10em 9em;
     padding: 5em 5em 8em 3em;
     border-radius: 3vh;
-    box-shadow: 10px 10px 10px rgba(0,0, 0, .3);
+    box-shadow: 15px 15px 15px rgba(0,0, 0, .3);
 }
-
 .loginme{
     animation: fadeIn 2s forwards;
 }
@@ -27,4 +26,12 @@ body{
         opacity: 1;
         transform: translate(0);
     }
+}
+
+h3{
+    padding-bottom: 1.2em;
+}
+
+@media (min-width :730px){
+    
 }
