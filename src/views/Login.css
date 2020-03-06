@@ -1,0 +1,30 @@
+body{
+    background-image: url(https://www.islands.com/sites/islands.com/files/images/2016/07/harbor_by_mick_collins.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    background-color: 464646;
+}
+.loginme{
+    background-color: rgb(255, 255, 255,.8);
+    margin: 15em 20em 10em 9em;
+    padding: 5em 5em 8em 3em;
+    border-radius: 3vh;
+    box-shadow: 10px 10px 10px rgba(0,0, 0, .3);
+}
+
+.loginme{
+    animation: fadeIn 2s forwards;
+}
+
+@keyframes fadeIn {
+    from{
+        opacity: 0;
+        transform: translateY(-2vh);
+    }
+    to{
+        opacity: 1;
+        transform: translate(0);
+    }
+}

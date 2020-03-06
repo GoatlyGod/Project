@@ -22,3 +22,7 @@ body {
   height: 40px;
   width: 50px;
 }
+
+.navbar{
+  padding-bottom: 3em;
+}
