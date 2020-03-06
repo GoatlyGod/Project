@@ -1,19 +1,18 @@
-import React from "react";
+import React from 'react'
+import VIFeed from "../assets/VIFeed.png"
+
 
 
 const Navbar = () => {
     return (
         <React.Fragment>
         <div>
-        <nav className="navbar navbar-dark bg-dark fixed-top">
-           
+        <nav className="navbar navbar-light bg-light fixed-top">
           <form className="form-inline">
-            <image src="https://files.slack.com/files-pri/T0BFXMWMV-FUW752Z1B/vifeed.png" href="">test</image> 
+            <img className= "nav-logo" src={VIFeed}/>
           </form>
-            
-          <b className="navbar-brand" href="#">
-            VIFeed
-          </b>
+
+          
 
           <div class="d-flex">
             <div class="dropdown mr-1">
