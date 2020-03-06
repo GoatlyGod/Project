@@ -5,6 +5,7 @@ import heartOutline from "../assets/heart-outline.svg";
 
 const InfoCard = () => {
     return (
+        <React.Fragment> 
         <div className="card" style={{ width: "18rem" }}>
         <img src="https://i.ytimg.com/vi/av0PNCWD0EQ/maxresdefault.jpg" class="card-img-top" alt="..."/>
         <div className="card-body">
@@ -13,7 +14,8 @@ const InfoCard = () => {
           <a href="#" class="btn btn-primary">Go somewhere</a>
         </div>
       </div>
+      </React.Fragment>
     )
 }
 
-export default InfoCard
+export default InfoCard;

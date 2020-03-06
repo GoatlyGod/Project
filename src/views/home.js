@@ -1,12 +1,15 @@
-import React from "react";
-import Navbar from "../components/Navbar"
+import React from 'react'
 
-const home = () => {
-    return(
-        <React.Fragment>
-            <Navbar/>
-        </React.Fragment>
+
+const Home = () => {
+    return (
+        <div className="jumbotron jumbotron-fluid">
+            <div className="container">
+                <h1 className="display-4">Fluid jumbotron</h1>
+                <p className="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+            </div>
+        </div>
     )
 }
 
-export default home;
+export default Home;
