@@ -71,7 +71,7 @@ const InfoCard = () => {
                     <p className="card-text">A thin brown soup with parts of goat meat including some bones with cloves and thyme.</p>
                     
 
-                      <a href="#card" className="btn btn-primary">Order now!</a>
+                      <a href="#card" className="Boy btn btn-primary">Order now!</a>
                         
               
                   </div>

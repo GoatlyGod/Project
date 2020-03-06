@@ -5,6 +5,8 @@ import STT from '../assets/STT.jpg';
 import STJ from '../assets/STJ.jpg'
 import InfoCard from "../components/InfoCard";
 
+import "./Home.css"
+
 
 const Home = () => {
   return (
