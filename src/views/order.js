@@ -1,5 +1,8 @@
 import React from "react";
 import Navbar from "../components/Navbar";
+import STX from '../assets/STX.jpg';
+import STT from '../assets/STT.jpg';
+import STJ from '../assets/STJ.jpg'
 import "./Order.css";
 
 const Order = () => {
@@ -7,41 +10,45 @@ const Order = () => {
     <div>
       <Navbar />
 
-<<<<<<< HEAD
-=======
-      <div>
-
-            <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="..."/>
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+      <div className="container mt-3">
+        <div className="row">
+          <div className="col">
+            <div class="card" style={{width: "18rem",  padding: "10px"}}>
+              <img src={STX} class="card-img-top" alt="..."/>
+              <div class="card-body">
+                <h5 class="card-title">St. Croix</h5>
+                <p class="card-text">Order from any local restaraunts near you choose your island and then enter your address in the boxes below.</p>
+                <a href="#" class="btn btn-primary">Select</a>
+              </div>
+            </div>
+          </div>
+        
+        
+          <div className="col">
+            <div class="card" style={{width: "18rem",  padding: "10px"}}>
+              <img src={STT} class="card-img-top" alt="..."/>
+              <div class="card-body">
+                <h5 class="card-title">St. Thomas</h5>
+                <p class="card-text">Order from any local restaraunts near you choose your island and then enter your address in the boxes below.</p>
+                <a href="#" class="btn btn-primary">Select</a>
+              </div>
+            </div>
+          </div>
+          
+          <div className="col">
+            <div class="card" style={{width: "18rem",  padding: "10px"}}>
+              <img src={STJ} class="card-img-top" alt="..."/>
+              <div class="card-body">
+                <h5 class="card-title">St. John</h5>
+                <p class="card-text">Order from any local restaraunts near you choose your island and then enter your address in the boxes below.</p>
+                <a href="#" class="btn btn-primary">Select</a>
+              </div>
+            </div>
+          </div>
         </div>
-
-
-      <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="..."/>
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-      </div>
-
-      <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="..."/>
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-      </div>
-
       </div>
     </div>
->>>>>>> 8ff67d853c05d4c562323bfdac4e86b5332d2679
-    </div>
+  
   );
 };
 
