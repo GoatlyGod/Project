@@ -10,9 +10,6 @@ body {
   height: 350px;
   width: 250px;
 }
-.Card {
-  padding: 40px;
-}
 .jumbotron {
   background-image: url(https://img.theculturetrip.com/768x/images/56-259679-cover-5-.jpg);
   background-size: 100% 100%;
@@ -22,10 +19,9 @@ body {
   height: 80px;
   width: 100px;
 }
-
-.d-flex{
-  margin-right: 3em;
+.The{
+  margin-top: 25px;
 }
- .meform{
-  margin-left: 25em;
- }
+.navbar{
+  padding-bottom: 3em;
+}

@@ -7,7 +7,7 @@ import { BrowserRouter, Link } from "react-router-dom";
 
 const Login = () => {
   const [inputEmail, setInputEmail] = useState("");
-  const [inputPassword, setInputPassword] = useState("")
+  const [inputPassword, setInputPassword] = useState("");
   return (
     <div>
       <Navbar />
@@ -36,23 +36,25 @@ const Login = () => {
           ></input>
         </div>
 
-            <BrowserRouter>
-            <Link to="/home">
-                <div className="form-group">
-                    <input
-                        type="submit"
-                        className="btn btn-primary btnSubmit"
-                        value="Login"
-                    ></input>
-                </div>
-            </Link>
-            </BrowserRouter>
-
-
-        
+        <BrowserRouter>
+          
+            <div className="form-group">
+              <button
+                type="submit"
+                className="btn btn-primary btnSubmit"
+                value="Login"
+              >
+                <Link to="/home">
+                  Login
+                </Link>
+                
+              </button>
+            </div>
+         
+        </BrowserRouter>
 
         <div className="form-group">
-          <a href="#" className="btnForgetPwd">
+          <a href="..." className="btnForgetPwd">
             Forget Password?
           </a>
         </div>

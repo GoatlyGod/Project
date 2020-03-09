@@ -33,5 +33,15 @@ h3{
 }
 
 @media (min-width :730px){
-    
+    .loginme{
+        margin-top: 10em;
+    }
+}
+@media (min-width: 730px){
+    .loginme{
+        margin: 15em 20em 10em 9em;
+        padding: 5em 5em 8em 3em;
+        border-radius: 3vh;
+        box-shadow: 15px 15px 15px rgba(0,0, 0, .3);
+    }
 }
