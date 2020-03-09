@@ -19,7 +19,7 @@ const Login = () => {
           <input
             type="text"
             className="form-control"
-            placeholder="Your Email *"
+            placeholder="underrated@email.com"
             value={inputEmail}
             name={inputEmail}
             onChange={e => setInputEmail(e.target.value)}
