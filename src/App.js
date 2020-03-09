@@ -4,8 +4,8 @@ import { BrowserRouter, Switch, Route, Redirect } from "react-router-dom";
 import "./App.css";
 
 import Order from "./views/Order";
-import Home from "./views/home";
-import Login from "./views/login";
+import Home from "./views/Home";
+import Login from "./views/Login"
 
 const App = () => {
   return (

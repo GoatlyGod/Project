@@ -36,7 +36,6 @@ const Login = () => {
           ></input>
         </div>
 
-        <BrowserRouter>
           
             <div className="form-group">
               <button
@@ -51,7 +50,7 @@ const Login = () => {
               </button>
             </div>
          
-        </BrowserRouter>
+        
 
         <div className="form-group">
           <a href="..." className="btnForgetPwd">
