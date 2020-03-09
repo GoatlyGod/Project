@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 
 
@@ -14,8 +15,7 @@ const InfoCard = () => {
                     <h5 className="card-title">Saltfish&Dumplings</h5>
                     <p className="card-text">Island dish made by local restaurants or families on the islands of St. Croix or St. Thomas.</p>
                     
-                     <a href="#card" className="btn btn-primary">Order now!</a>
-                        
+                    <button className="btn"><Link to="/Order">Order now!</Link></button>                        
               
                   </div>
                 </div>
@@ -28,7 +28,7 @@ const InfoCard = () => {
                     <p className="card-text">Sweet flat like shaped deep fried cake with a fluffy doughy inside with a delightful taste </p>
                     
 
-                      <a href="#card" className="btn btn-primary">Order now!</a>
+                      <button className="btn"><Link to="/Order">Order now!</Link></button>
                         
               
                   </div>
@@ -42,8 +42,7 @@ const InfoCard = () => {
                     <p className="card-text">Banana pancake like batter fried in low oil. Much softer texture than pancakes which makes a delightful sweet.</p>
                     
 
-                      <a href="#card" className="btn btn-primary">Order now!</a>
-                        
+                    <button className="btn"><Link to="/Order">Order now!</Link></button>                        
               
                   </div>
                 </div>
@@ -57,8 +56,7 @@ const InfoCard = () => {
                      that can be made with seafood or sous(Pig meat)in it.</p>
                     
 
-                      <a href="#card" className="btn btn-primary">Order now!</a>
-                        
+                      <button className="btn"><Link to="/Order">Order now!</Link></button>                        
               
                   </div>
                 </div>
@@ -71,8 +69,7 @@ const InfoCard = () => {
                     <p className="card-text">A thin brown soup with parts of goat meat including some bones with cloves and thyme.</p>
                     
 
-                      <a href="#card" className="btn btn-primary">Order now!</a>
-                        
+                    <button className="btn"><Link to="/Order">Order now!</Link></button>                        
               
                   </div>
                 </div>
@@ -85,8 +82,7 @@ const InfoCard = () => {
                     <p className="card-text">Saltfish mixed in with a thick flour batter, bell pepers, and other spices that then gets fried.</p>
                     
 
-                      <a href="#card" className="btn btn-primary">Order now!</a>
-                        
+                      <button className="btn"><Link to="/Order">Order now!</Link></button>                        
               
                   </div>
                 </div>
@@ -99,8 +95,7 @@ const InfoCard = () => {
                     <p className="card-text">Colored mashed potatos well seasoned with spices a dash of sugar and sometimes raisins are added.</p>
                     
 
-                      <a href="#card" className="btn btn-primary">Order now!</a>
-                        
+                    <button className="btn"><Link to="/Order">Order now!</Link></button>                        
               
                   </div>
                 </div>
@@ -113,8 +108,7 @@ const InfoCard = () => {
                     <p className="card-text">Spiced and seasoned salmon (with the salmon bones removed) balled into an oval like shape and fried.</p>
                     
 
-                      <a href="#card" className="btn btn-primary">Order now!</a>
-                        
+                    <button className="btn"><Link to="/Order">Order now!</Link></button>                        
               
                   </div>
                 </div>
@@ -127,8 +121,7 @@ const InfoCard = () => {
                     <p className="card-text">Pig part chunks in a soup like sauce spiced heavily with a side of potato salad</p>
                     
 
-                      <a href="#card" className="The btn btn-primary">Order now!</a>
-                        
+                    <button className="btn"><Link to="/Order">Order now!</Link></button>                        
               
                   </div>
                 </div>
