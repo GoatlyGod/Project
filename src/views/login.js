@@ -16,6 +16,7 @@ const Login = () => {
         <h3>Please Login into your account</h3>
 
         <div className="form-group">
+          Email
           <input
             type="text"
             className="form-control"
@@ -26,6 +27,7 @@ const Login = () => {
           />
         </div>
         <div className="form-group">
+          Password
           <input
             type="password"
             className="form-control"

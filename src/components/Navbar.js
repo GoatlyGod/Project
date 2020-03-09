@@ -1,5 +1,7 @@
 import React from "react";
 import VIFeed from "../assets/VIFeed.png";
+import { Link } from 'react-router-dom'
+
 
 
 const Navbar = () => {
@@ -30,9 +32,9 @@ const Navbar = () => {
                 Settings
               </button>
               <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <a class="dropdown-item" href="#">Login</a>
-                <a class="dropdown-item" href="#">Order</a>
-                <a class="dropdown-item" href="#">Contact</a>
+                <button class="dropdown-item" href="#"><Link to="/Login">Login</Link></button>
+                <button class="dropdown-item" href="#"><Link to="/Order">Order</Link></button>
+                <button class="dropdown-item" href="#">Contact</button>
               </div>
             </div>
           </div>
