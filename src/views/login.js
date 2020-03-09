@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 
 import "./Login.css";
-
+import Footer from "../components/Footer"
 import Navbar from "../components/Navbar";
-import { BrowserRouter, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Login = () => {
   const [inputEmail, setInputEmail] = useState("");
@@ -60,6 +60,8 @@ const Login = () => {
           </a>
         </div>
       </div>
+      <Footer />
+
     </div>
   );
 };

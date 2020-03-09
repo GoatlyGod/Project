@@ -15,7 +15,7 @@ const Navbar = () => {
 
             <form class=" meform form-inline my-2 my-lg-0">
               <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"/>
-              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
             </form>
 
           <div class="d-flex">
@@ -33,8 +33,8 @@ const Navbar = () => {
               </button>
               <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                 <button class="dropdown-item" href="#"><Link to="/Login">Login</Link></button>
+                <button class="dropdown-item" href="#"><Link to="/Home">Home</Link></button>
                 <button class="dropdown-item" href="#"><Link to="/Order">Order</Link></button>
-                <button class="dropdown-item" href="#">Contact</button>
               </div>
             </div>
           </div>
