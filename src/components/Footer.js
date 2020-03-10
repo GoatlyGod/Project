@@ -8,7 +8,7 @@ const Footer = () => {
         <div>
             <footer className="page-footer font-small bg-dark">
                 <div className="footer-copyright text-center py-3">
-                2020 copyrights
+                    © Copyright 2020 VIFeed, Inc.
                 </div>
             </footer>
         </div>
