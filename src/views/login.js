@@ -75,25 +75,6 @@ const Login = () => {
             </button>
           </div>
 
-<<<<<<< HEAD
-        <div className="form-group">
-          <button
-            type="submit"
-            className="btn btn-primary btnSubmit"
-            value="Login"
-          >
-            <Link to="/home">Login</Link>
-          </button>
-        </div>
-
-        <div className="form-group">
-          <a href="..." className="btnForgetPwd">
-            Forget Password?
-          </a>
-        </div>
-      </div>
-    </React.Fragment>
-=======
           <div className="form-group">
             <a href="..." className="btnForgetPwd">
               Forget Password?
@@ -104,7 +85,7 @@ const Login = () => {
 
       <Footer />
     </div>
->>>>>>> cf6a3b03c4d759263520dd3e491ca9060d2143c7
+
   );
 };
 

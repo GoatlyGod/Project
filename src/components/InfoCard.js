@@ -15,7 +15,7 @@ const InfoCard = () => {
                     <h5 className="card-title">Saltfish&Dumplings</h5>
                     <p className="card-text">Island dish made by local restaurants or families on the islands of St. Croix or St. Thomas.</p>
                     
-                    <button className="btn"><Link to="/Order/placeholder" replace>Order now!</Link></button>                        
+                    <button className="btn"><Link to="/Order" replace>Order now!</Link></button>                        
               
                   </div>
                 </div>
