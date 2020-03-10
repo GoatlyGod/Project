@@ -4,6 +4,8 @@ import STX from '../assets/STX.jpg';
 import STT from '../assets/STT.jpg';
 import STJ from '../assets/STJ.jpg'
 import InfoCard from "../components/InfoCard";
+import Footer from "../components/Footer"
+
 
 import "./Home.css"
 
@@ -35,6 +37,8 @@ const Home = () => {
             </div>
 
        <InfoCard />
+       <Footer />
+
       </React.Fragment>
   );
 };

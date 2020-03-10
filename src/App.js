@@ -3,9 +3,9 @@ import { BrowserRouter, Switch, Route, Redirect } from "react-router-dom";
 
 import "./App.css";
 
-import Order from "./views/Order";
 import Home from "./views/Home";
-import Login from "./views/Login"
+import Login from "./views/Login";
+import Order from "./views/Order";
 
 const App = () => {
   return (
