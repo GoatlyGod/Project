@@ -9,9 +9,8 @@ const Login = () => {
   const [inputEmail, setInputEmail] = useState("");
   const [inputPassword, setInputPassword] = useState("");
   return (
-    <div>
+    <React.Fragment>
       <Navbar />
-
       <div className="loginme">
         <h3>Please Login into your account</h3>
 
@@ -38,21 +37,15 @@ const Login = () => {
           ></input>
         </div>
 
-          
-            <div className="form-group">
-              <button
-                type="submit"
-                className="btn btn-primary btnSubmit"
-                value="Login"
-              >
-                <Link to="/home">
-                  Login
-                </Link>
-                
-              </button>
-            </div>
-         
-        
+        <div className="form-group">
+          <button
+            type="submit"
+            className="btn btn-primary btnSubmit"
+            value="Login"
+          >
+            <Link to="/home">Login</Link>
+          </button>
+        </div>
 
         <div className="form-group">
           <a href="..." className="btnForgetPwd">
@@ -60,7 +53,7 @@ const Login = () => {
           </a>
         </div>
       </div>
-    </div>
+    </React.Fragment>
   );
 };
 

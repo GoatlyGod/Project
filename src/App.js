@@ -5,7 +5,7 @@ import "./App.css";
 
 import Order from "./views/Order";
 import Home from "./views/Home";
-import Login from "./views/Login";
+import Login from "./views/Login"
 
 const App = () => {
   return (

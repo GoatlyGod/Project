@@ -1,47 +1,41 @@
-body{
-    background-image: url(https://www.islands.com/sites/islands.com/files/images/2016/07/harbor_by_mick_collins.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center center;
-    background-size: cover;
-    background-color: 464646;
+
+ *{
+     font-family: Helvetica Arial, Helvetica, sans-serif ;
+ }
+body {
+  background-image: url(https://www.islands.com/sites/islands.com/files/images/2016/07/harbor_by_mick_collins.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  background-color: 464646;
 }
-.loginme{
-    background-color: rgb(255, 255, 255,.8);
-    margin: 15em 20em 10em 9em;
-    padding: 5em 5em 8em 3em;
-    border-radius: 3vh;
-    box-shadow: 15px 15px 15px rgba(0,0, 0, .3);
+.loginme {
+  width: 75%;
+  padding: 60px 50px;
+  margin: 175px auto;
+  background-color: rgb(255, 255, 255, 0.8);
+  border-radius: 3vh;
+  box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.3);
+  
 }
+
 .loginme{
     animation: fadeIn 2s forwards;
 }
 
+.loginme > h3 {
+  font-size: 25px;
+  margin-bottom: 50px;
+}
+
 @keyframes fadeIn {
-    from{
-        opacity: 0;
-        transform: translateY(-2vh);
-    }
-    to{
-        opacity: 1;
-        transform: translate(0);
-    }
-}
-
-h3{
-    padding-bottom: 1.2em;
-}
-
-@media (min-width :730px){
-    .loginme{
-        margin-top: 10em;
-    }
-}
-@media (min-width: 730px){
-    .loginme{
-        margin: 15em 20em 10em 9em;
-        padding: 5em 5em 8em 3em;
-        border-radius: 3vh;
-        box-shadow: 15px 15px 15px rgba(0,0, 0, .3);
-    }
+  from {
+    opacity: 0;
+    transform: translateY(-2vh);
+  }
+  to {
+    opacity: 1;
+    transform: translate(0);
+  }
 }

@@ -4,18 +4,13 @@ import STX from '../assets/STX.jpg';
 import STT from '../assets/STT.jpg';
 import STJ from '../assets/STJ.jpg'
 import "./Order.css";
-import Address from "../components/AddressButton";
-import buttonMe from "../components/OrderNow";
 
 const Order = () => {
   return (
     <div>
-      {/* <Navbar /> */}
-      <Address/>
-      <buttonMe/>
+      <Navbar />
 
-<<<<<<< HEAD
-=======
+
       <div className="container mt-3">
         <div className="row">
           <div className="col">
@@ -53,7 +48,6 @@ const Order = () => {
           </div>
         </div>
       </div>
->>>>>>> 24b8393716fd70787532d51e24a0402f0ffdee9a
     </div>
   
   );
