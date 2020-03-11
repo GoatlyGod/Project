@@ -10,3 +10,8 @@
   .h1{
     text-size-adjust: 100px;
   }
+  .box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
