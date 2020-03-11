@@ -12,11 +12,33 @@ const InfoCard = () => {
                 <div className="card" style={{ width: "18rem", margin: "20px" }}>
                   <img src="https://i.ytimg.com/vi/av0PNCWD0EQ/maxresdefault.jpg" className="card-img-top" alt="..." style={{width: "90%", margin: "15px",  borderRadius: "15px" }} />
                   <div className="card-body">
-                    <h5 className="card-title">Saltfish&Dumplings</h5>
-                    <p className="card-text">Island dish made by local restaurants or families on the islands of St. Croix or St. Thomas.</p>
+                    <h5 className="card-title"><b>Saltfish&Dumplings</b></h5>
+                    <h6 className="price" >$11.35</h6>
+                    <p className="card-text">3 sweet boiled dumplings and saltfish with island touch seasonings</p>
                     
-                    <button className="btn"><Link to="/Order" replace>Order now!</Link></button>                        
-              
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalScrollable">
+                      Add to cart
+                    </button>
+
+                    <div class="modal fade" id="exampleModalScrollable" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-scrollable" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalScrollableTitle">Saltfish&Dumplings</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                          <img src="https://i.ytimg.com/vi/av0PNCWD0EQ/maxresdefault.jpg" className="card-img-top" alt="..." style={{width: "90%", margin: "15px",  borderRadius: "15px" }} />
+
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-primary">Add to cart- $11.35</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -28,7 +50,7 @@ const InfoCard = () => {
                     <p className="card-text">Sweet flat like shaped deep fried cake with a fluffy doughy inside with a delightful taste </p>
                     
 
-                      <button className="btn"><Link to="/Order">Order now!</Link></button>
+                      <button className="button2 btn"><Link to="/Order">Order now!</Link></button>
                         
               
                   </div>
@@ -42,7 +64,7 @@ const InfoCard = () => {
                     <p className="card-text">Banana pancake like batter fried in low oil. Much softer texture than pancakes which makes a delightful sweet.</p>
                     
 
-                    <button className="btn"><Link to="/Order">Order now!</Link></button>                        
+                    <button className="button3 btn"><Link to="/Order">Order now!</Link></button>                        
               
                   </div>
                 </div>
@@ -56,7 +78,7 @@ const InfoCard = () => {
                      that can be made with seafood or sous(Pig meat)in it.</p>
                     
 
-                      <button className="btn"><Link to="/Order">Order now!</Link></button>                        
+                      <button className="button4 btn"><Link to="/Order">Order now!</Link></button>                        
               
                   </div>
                 </div>
@@ -69,7 +91,7 @@ const InfoCard = () => {
                     <p className="card-text">A thin brown soup with parts of goat meat including some bones with cloves and thyme.</p>
                     
 
-                    <button className="btn"><Link to="/Order">Order now!</Link></button>                        
+                    <button className="button5 btn"><Link to="/Order">Order now!</Link></button>                        
               
                   </div>
                 </div>
@@ -82,7 +104,7 @@ const InfoCard = () => {
                     <p className="card-text">Saltfish mixed in with a thick flour batter, bell pepers, and other spices that then gets fried.</p>
                     
 
-                      <button className="btn"><Link to="/Order">Order now!</Link></button>                        
+                      <button className="button6 btn"><Link to="/Order">Order now!</Link></button>                        
               
                   </div>
                 </div>
@@ -95,7 +117,7 @@ const InfoCard = () => {
                     <p className="card-text">Colored mashed potatos well seasoned with spices a dash of sugar and sometimes raisins are added.</p>
                     
 
-                    <button className="btn"><Link to="/Order">Order now!</Link></button>                        
+                    <button className="button7 btn"><Link to="/Order">Order now!</Link></button>                        
               
                   </div>
                 </div>
@@ -108,7 +130,7 @@ const InfoCard = () => {
                     <p className="card-text">Spiced and seasoned salmon (with the salmon bones removed) balled into an oval like shape and fried.</p>
                     
 
-                    <button className="btn"><Link to="/Order">Order now!</Link></button>                        
+                    <button className="button8 btn"><Link to="/Order">Order now!</Link></button>                        
               
                   </div>
                 </div>
@@ -121,7 +143,7 @@ const InfoCard = () => {
                     <p className="card-text">Pig part chunks in a soup like sauce spiced heavily with a side of potato salad</p>
                     
 
-                    <button className="btn"><Link to="/Order">Order now!</Link></button>                        
+                    <button className="button9 btn"><Link to="/Order">Order now!</Link></button>                        
               
                   </div>
                 </div>

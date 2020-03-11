@@ -52,14 +52,14 @@ const Order = () => {
 
       <div className="container">
         <div className="In input-group mb-3">
-          <input type="text" className="form-control" placeholder="Food Selection" />
+          <input type="text" className="form-control" placeholder="Food Selection(s)" />
         </div>
 
         <div className="turn input-group mb-3">
           <input type="text" className="form-control" placeholder="Address" />
         </div>
 
-        <button type="button" class="BOY btn btn-primary">
+        <button type="button" className="BOY btn btn-primary">
           <h1>Confirm Order</h1>
         </button>
       </div>

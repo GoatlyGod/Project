@@ -84,8 +84,10 @@ const Login = () => {
       </form>
 
       <Footer />
-    </div>
-
+    </React.Fragment>  
+  
+      
+  
   );
 };
 
