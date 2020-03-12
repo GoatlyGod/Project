@@ -1,7 +1,9 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React from 'react';
+import { Link, useHistory } from 'react-router-dom';
 
 const InfoCardModal = props => {
+  const history = useHistory();
+
   return (
     <div>
       <div
@@ -33,15 +35,20 @@ const InfoCardModal = props => {
                 className="card-img-top"
                 alt="..."
                 style={{
-                  width: "90%",
-                  margin: "15px",
-                  borderRadius: "15px"
+                  width: '90%',
+                  margin: '15px',
+                  borderRadius: '15px'
                 }}
               />
             </div>
             <div className="modal-footer">
-              <button type="button" className="btn btn-primary">
-                <Link to="/order">Add to cart - {props.price} </Link>
+              <button
+                type="button"
+                className="btn btn-primary"
+                data-dismiss="modal"
+                onClick={() => history.push('/order')}
+              >
+                Add to cart - {props.price}
               </button>
             </div>
           </div>
