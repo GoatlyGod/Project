@@ -6,7 +6,7 @@ const InfoCard = props => {
     <React.Fragment>
             <div className="card mr-5 mt-5">
               <img
-                src="https://i.ytimg.com/vi/av0PNCWD0EQ/maxresdefault.jpg"
+                src= {props.image}
                 className="card-img-top"
                 alt="..."
                 style={{ width: "90%", margin: "15px", borderRadius: "15px" }}
