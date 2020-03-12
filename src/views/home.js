@@ -12,7 +12,8 @@ const Home = () => {
   const [foods, setfoods] = useState([
     {   "name": "Saltfish&Dumplings",
         "price": "$13.75"},
-    { "name": "Johnny Cake" },
+    { "name": "Johnny Cake",
+      "price": "$2.00"},
     { "name": "Banana Fritters" },
     { 'name': "Kallaloo" },
     { 'name': "Goat Soap" },

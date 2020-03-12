@@ -17,8 +17,7 @@ const InfoCard = props => {
                 </h5>
                 <h6 className="price">{props.price}</h6>
                 <p className="card-text">
-                  3 sweet boiled dumplings and saltfish with island touch
-                  seasonings
+                  
                 </p>
 
                 <button
