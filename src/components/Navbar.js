@@ -1,8 +1,6 @@
 import React from "react";
 import VIFeed from "../assets/VIFeed.png";
-import { Link } from 'react-router-dom'
-
-
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -10,19 +8,29 @@ const Navbar = () => {
       <div>
         <nav className="navbar navbar-light bg-dark fixed-top">
           <form className="form-inline">
-            <img className="nav-logo" src={VIFeed} alt="..."/>
+            <img className="nav-logo" src={VIFeed} alt="..." />
           </form>
 
-            <form class=" meform form-inline my-2 my-lg-0">
-              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"/>
-              <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
-            </form>
+          <form className=" meform form-inline my-2 my-lg-0">
+            <input
+              className="form-control mr-sm-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button
+              className="btn btn-outline-primary my-2 my-sm-0"
+              type="submit"
+            >
+              Search
+            </button>
+          </form>
 
-          <div class="d-flex">
-            <div class="dropdown mr-1">
+          <div className="d-flex">
+            <div className="dropdown mr-1">
               <button
                 type="button"
-                class="btn btn-secondary dropdown-toggle"
+                className="btn btn-secondary dropdown-toggle"
                 id="dropdownMenuOffset"
                 data-toggle="dropdown"
                 aria-haspopup="true"
@@ -31,10 +39,19 @@ const Navbar = () => {
               >
                 Settings
               </button>
-              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <button class="dropdown-item" href="#"><Link to="/Login">Login</Link></button>
-                <button class="dropdown-item" href="#"><Link to="/Home">Home</Link></button>
-                <button class="dropdown-item" href="#"><Link to="/Order">Cart</Link></button>
+              <div
+                className="dropdown-menu"
+                aria-labelledby="dropdownMenuButton"
+              >
+                <button className="dropdown-item" href="#">
+                  <Link to="/Login">Login</Link>
+                </button>
+                <button className="dropdown-item" href="#">
+                  <Link to="/Home">Home</Link>
+                </button>
+                <button className="dropdown-item" href="#">
+                  <Link to="/Order">Cart</Link>
+                </button>
               </div>
             </div>
           </div>

@@ -6,11 +6,14 @@ import "./App.css";
 import Home from "./views/Home";
 import Login from "./views/Login";
 import Order from "./views/Order";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
     <React.Fragment>
       <BrowserRouter>
+        <Navbar />
         <Switch>
           <Route path="/login">
             <Login />
@@ -25,6 +28,7 @@ const App = () => {
             <Redirect to="/login" />
           </Route>
         </Switch>
+        <Footer/>
       </BrowserRouter>
     </React.Fragment>
   );

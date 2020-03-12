@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 
 import "./Login.css";
-import Footer from "../components/Footer";
-import Navbar from "../components/Navbar";
 import { useHistory } from "react-router-dom";
 
 const Login = () => {
@@ -37,7 +35,7 @@ const Login = () => {
 
   return (
     <React.Fragment>
-      <Navbar />
+
       <form onSubmit={formOnSubmitHandler}>
         <div className="loginme">
           <h3>Please Login into your account</h3>
@@ -83,7 +81,7 @@ const Login = () => {
         </div>
       </form>
 
-      <Footer />
+  
     </React.Fragment>  
   
       
