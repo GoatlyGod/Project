@@ -1,8 +1,10 @@
-import React from 'react';
-import { Link, useHistory } from 'react-router-dom';
+import React, { useContext } from 'react';
+import { useHistory } from 'react-router-dom';
+import { StateContext } from '../store';
 
 const InfoCardModal = props => {
   const history = useHistory();
+  const [, dispatch] = useContext(StateContext);
 
   return (
     <div>
@@ -46,7 +48,17 @@ const InfoCardModal = props => {
                 type="button"
                 className="btn btn-primary"
                 data-dismiss="modal"
-                onClick={() => history.push('/order')}
+                onClick={() => {
+                  dispatch({
+                    type: 'SET_SELECTED_FOOD',
+                    payload: {
+                      name: props.name,
+                      price: props.price,
+                      image: props.image
+                    }
+                  });
+                  history.push('/order');
+                }}
               >
                 Add to cart - {props.price}
               </button>

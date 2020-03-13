@@ -12,7 +12,7 @@ import { StateProvider } from './store';
 
 const App = () => {
   const initialState = {
-    selectedFood: null
+    selectedFood: []
   };
 
   const reducer = (state, action) => {
@@ -20,7 +20,12 @@ const App = () => {
       case 'SET_SELECTED_FOOD':
         return {
           ...state,
-          selectedFood: action.payload
+          selectedFood: (() => {
+            const _selectedFood = state.selectedFood;
+            _selectedFood.push(action.payload);
+
+            return _selectedFood;
+          })()
         };
       default:
         return state;
